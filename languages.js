@@ -102,6 +102,13 @@ const translations = {
                 feature2: 'Data Sync',
                 feature3: 'Backend'
             },
+            baryonWorkspace: {
+                title: 'Baryon Agents Parallel Workspace',
+                description: 'Integrated environment for agents parallel programming with Git worktree isolation and spec-driven workflows',
+                feature1: 'Parallel Agents',
+                feature2: 'Git Worktree Isolation',
+                feature3: 'Spec-driven Workflow'
+            },
             comingSoon: {
                 title: 'New Service Coming Soon',
                 description: 'We are developing an innovative AI solution with our new team member. Stay tuned for an amazing service that will be unveiled soon.',
@@ -243,6 +250,13 @@ const translations = {
                 feature1: 'API 게이트웨이',
                 feature2: '데이터 동기화',
                 feature3: '백엔드'
+            },
+            baryonWorkspace: {
+                title: 'Baryon Agents Parallel Workspace',
+                description: 'Git 워크트리 분리와 스펙 기반 워크플로우를 갖춘 에이전트 병렬 프로그래밍 통합 환경',
+                feature1: '에이전트 병렬',
+                feature2: 'Git 워크트리 분리',
+                feature3: '스펙 기반 워크플로우'
             },
             comingSoon: {
                 title: '새로운 서비스 준비중',
