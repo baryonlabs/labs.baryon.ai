@@ -844,6 +844,29 @@ body[data-lang="en"] .service-content p {
     transform: translateX(4px);
 }
 
+/* Service Links Container */
+.service-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.product-hunt-link {
+    background: rgba(255, 101, 84, 0.1) !important;
+    border-color: rgba(255, 101, 84, 0.2) !important;
+    color: #ff6554 !important;
+}
+
+.product-hunt-link:hover {
+    background: rgba(255, 101, 84, 0.15) !important;
+    border-color: #ff6554 !important;
+    color: #ff6554 !important;
+}
+
+.product-hunt-link svg {
+    flex-shrink: 0;
+}
+
 .services-cta {
     text-align: center;
     background: rgba(59, 130, 246, 0.05);
@@ -1625,6 +1648,19 @@ footer p:first-child {
         width: 95%;
         padding: 30px 20px;
         margin: 10% auto;
+    }
+
+    .service-links {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .service-link,
+    .product-hunt-link {
+        width: 100%;
+        justify-content: center;
+        font-size: 13px;
+        padding: 10px 20px;
     }
 
     .services-grid {
